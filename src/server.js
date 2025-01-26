@@ -1,15 +1,18 @@
 const express = require('express');
 const googleTrends = require('google-trends-api');
 const cron = require('node-cron');
+const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 
 // In-memory cache for trends data
 let cachedTrends = {
   global: [],
   regions: {},
 };
+
+app.use(cors());
 
 // Function to fetch global trends
 const fetchGlobalTrends = async () => {
