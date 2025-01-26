@@ -23,7 +23,7 @@ const TrendingQueries: React.FC = () => {
 
   return (
     <div className="p-4 max-w-lg mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-center">Top 4 Trending Queries</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center">Top 5 Trending Queries</h1>
       {error ? (
         <p className="text-red-500 text-center">{error}</p>
       ) : trends.length > 0 ? (

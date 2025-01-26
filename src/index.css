@@ -17,3 +17,14 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.green-background {
+  background-color: #2ecc71;
+}
+
+a:link, a:visited , a:active {
+  color: white;
+}
+a:hover {
+  color: hotpink;
+}
