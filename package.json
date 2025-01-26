@@ -1,0 +1,24 @@
+{
+  "name": "trendapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iamcogita/TRENDAPI.git"
+  },
+  "author": "COGITA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iamcogita/TRENDAPI/issues"
+  },
+  "homepage": "https://github.com/Iamcogita/TRENDAPI#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "google-trends-api": "^4.9.2",
+    "node-cron": "^3.0.3"
+  }
+}
